@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">취소</string>
+    <string name="apply">적용</string>
+    <string name="settings">설정</string>
+</resources>
