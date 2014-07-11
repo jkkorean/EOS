@@ -27,14 +27,9 @@ CyanogenMod을 위하여 Steve Kondik가 수정했습니다..
     <string name="brightwarn_negative">아니오</string>
     <string name="brightwarn_accept">확인</string>
     <string name="label_high">고휘도</string>
-    <string name="label_strobe">깜빡이기</string>
     <string name="widget_options">일반 옵션</string>
-    <string name="setting_widget_bright">전등 위젯</string>
-    <string name="setting_widget_strobe">깜빡이기</string>
-    <string name="setting_frequency_title">깜빡임 주기</string>
-    <string name="setting_frequency_dialog">주기</string>
-	<string name="setting_frequency_hz">Hz</string>
+    <string name="setting_widget_bright">손전등 위젯</string>
     <string name="setting_add_widget">위젯 추가</string>
-    <string name="not_torch_title">전등 켜짐</string>
-	<string name="not_torch_toggle">전등 끄기</string>
+    <string name="not_torch_title">손전등 켜짐</string>
+	<string name="not_torch_toggle">손전등 끄기</string>
 </resources>

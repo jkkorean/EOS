@@ -21,7 +21,7 @@
     <string name="status_bar_settings_wifi_button">Wi-Fi</string>
     <string name="status_bar_settings_airplane">비행기 모드</string>
     <string name="status_bar_settings_auto_rotation">자동 화면 회전</string>
-    <string name="status_bar_settings_mute_label">무시</string>
+    <string name="status_bar_settings_mute_label">무음</string>
     <string name="status_bar_settings_auto_brightness_label">자동</string>
     <string name="status_bar_settings_notifications">알림</string>
 	<string name="status_bar_settings_battery_meter_format">%d%%</string>
@@ -228,6 +228,8 @@
     <string name="quick_settings_fcharge_off_label">고속 충전 꺼짐</string>
     <string name="quick_settings_otouch_on_label">O-Touch 켜짐</string>
     <string name="quick_settings_otouch_off_label">O-Touch 꺼짐</string>
+	<string name="quick_settings_heads_up_on">헤드 업 활성화</string>
+    <string name="quick_settings_heads_up_off">방해하지 않음</string>
     <string name="quick_settings_expanded_desktop">확장됨</string>
     <string name="quick_settings_expanded_desktop_off">일반</string>
     <string name="quick_settings_camera_error_connect">카메라에 연결할 수 없습니다</string>
