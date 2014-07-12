@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="cell_broadcast_sender">셀 브로드 캐스트 채널</string>
-    <string name="mms1">MMS 1</string>
-    <string name="mms2">MMS 2</string>
-    <string name="mms3">MMS 3</string>
-    <string name="sub1">서브 1</string>
-    <string name="sub2">서브 2</string>
-    <string name="sub3">서브 3</string>
     <string name="disk_storage_full_error">오류: 저장소가 가득 찼습니다.</string>
     <string name="system_audio_item">시스템 오디오</string>
     <string name="external_audio_item">외부 오디오</string>
-    <string name="select_subscription_title">구독 선택</string>
-    <string name="subscription1_title">구독 1</string>
-    <string name="subscription2_title">구독 2</string>
-    <string name="subscription3_title">구독 3</string>
     <string name="pending_mms_title">다른 구독에 보류중인 MMS</string>
     <string name="pending_mms">메시지: 하나 이상의 MMS가 보류중입니다</string>
     <string name="pending_mms_text">구독을 전환하려면 터치</string>
@@ -30,7 +20,7 @@
     <string name="toast_sending_message">메시지 보내기</string>
     <string name="qm_quick_reply">답장</string>
     <string name="qm_mark_read">읽음</string>
-    <string name="message_counter_separator">의</string>
+    <string name="message_counter">%1$d / %2$d</string>
     <string name="pref_title_notification_privacy_mode_enabled">개인 정보 보호 모드</string>
     <string name="pref_summary_notification_privacy_mode_enabled">"상태 표시줄에 발신자 및 메세지 숨기기와 '빠른 답장' 사용 해제"</string>
     <string name="notification_single_title_privacy_mode">새로운 메세지</string>
@@ -92,7 +82,7 @@
     <string name="add_to_blacklist_message">%s의 메시지는 앞으로 차단됩니다</string>
     <string name="alert_dialog_yes">예</string>
     <string name="alert_dialog_no">아니오</string>
-    <string name="menu_as_unread">읽지 않은 상태로 표시</string>
+	<string name="menu_as_unread">읽지 않은 상태로 표시</string>
     <string name="confirm_mark_unread_dialog_title">읽지 않은 상태로 표시하시겠습니까?</string>
     <string name="confirm_mark_unread_conversation">대화가 읽지 않은 상태로 표시됩니다.</string>
     <string name="confirm_mark_unread_all_conversations">모든 대화목록이 읽지 않은 상태로 표시됩니다.</string>
@@ -119,6 +109,11 @@
     <string name="pref_mms_notification_vibrate_long_vib">길게 진동</string>
     <string name="pref_mms_notification_vibrate_mult_short">여러번 짧게</string>
     <string name="pref_mms_notification_vibrate_mult_long">여러번 길게</string>
+	<string name="menu_insert_smiley">스마일 삽입</string>
+    <string name="pref_title_enable_emoticons">이모티콘 지원</string>
+    <string name="pref_summary_enable_emoticons">그래픽 기반에 해당하는 대체 텍스트 이모티콘</string>
+    <string name="normal_show">일반 모드 보기</string>
+    <string name="cannot_play">슬라이드 쇼를 표시할 수 없습니다.</string>
     <string name="app_label">메시지</string>
     <string name="new_message">새 메시지</string>
     <string name="menu_call_back">전화하기:%s</string>
@@ -144,8 +139,7 @@
     <string name="expire_on">만료 날짜: %s</string>
     <string name="kilobyte">KB</string>
     <string name="undelivered_msg_dialog_title">전송되지 않은 메시지</string>
-    <string name="undelivered_msg_dialog_body">"메시지를 보내지 못했습니다.
-마지막으로 시도한 시각: %s"</string>
+    <string name="undelivered_msg_dialog_body">"메시지를 보내지 못했습니다. 마지막으로 시도한 시각: %s"</string>
     <string name="undelivered_sms_dialog_body">메시지를 보내지 못했습니다.</string>
     <string name="delete_thread">대화목록 삭제</string>
     <string name="menu_forward">전달</string>
@@ -269,8 +263,8 @@
     <string name="pref_title_notification_ringtone">소리</string>
     <string name="pref_messages_to_save">저장할 메시지 개수 설정</string>
     <string name="silent_ringtone">무음</string>
-	<string name="prefDefault_vibrate_true">항상</string>
-    <string name="prefDefault_vibrate_false">사용 안함</string>
+    <string name="prefDefault_vibrate_true">always</string>
+    <string name="prefDefault_vibrate_false">never</string>
     <string name="pref_title_mms_auto_retrieval">자동 수신</string>
     <string name="pref_summary_mms_auto_retrieval">메시지를 자동으로 수신</string>
     <string name="pref_title_mms_retrieval_during_roaming">로밍 중 자동 수신</string>
